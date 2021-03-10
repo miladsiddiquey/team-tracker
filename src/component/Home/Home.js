@@ -10,6 +10,7 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setTeam(data.teams.slice(0, 15)))
     }, [])
+    
     return (
         <div style={{backgroundColor:'#0A071F'}}>
             <Header></Header>
@@ -17,7 +18,7 @@ const Home = () => {
                 
                     <div className="row">
                         {
-                            team.map(team => <Team team={team}></Team>)
+                            team.map(team => <Team key={team.idTeam} team={team}></Team>)
                         }
                     </div>
                 
