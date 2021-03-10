@@ -14,7 +14,7 @@ const TeamDetails = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setTeamDetail(data.teams[0]))
-    }, [])
+    }, [teamId])
     const { strTeam, strStadiumThumb, strTeamBadge, intFormedYear, strCountry, strGender, strStadiumDescription, strSport,strYoutube,strFacebook,strTwitter } = teamDetail;
     const imgStyle = {
         height: '400px',

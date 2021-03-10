@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import TeamDetails from './component/TeamDetails/TeamDetails';
 import NoMatch from './component/NoMatch/NoMatch';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
