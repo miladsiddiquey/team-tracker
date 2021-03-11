@@ -25,6 +25,7 @@ const TeamDetails = () => {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         opacity: '.8'
+        
     }
     const detailStyle = {
         display: 'flex',
@@ -61,7 +62,7 @@ const TeamDetails = () => {
                     </div>
                     <div>
                         {
-                            ( strGender  === "female") ? <img src={female} width="350" alt="" /> : <img src={male} width="350" alt="" />
+                            ( strGender  === "female") ? <img className="img-fluid" src={female} width="350" alt="" /> : <img className="img-fluid" src={male} width="350" alt="" />
                         }
                     </div>
                 </div>
