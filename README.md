@@ -11,4 +11,4 @@
 
     2)   https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=133604 
 
-## project Live-link: 
+## project Live-link: https://goofy-mclean-ee962e.netlify.app/
