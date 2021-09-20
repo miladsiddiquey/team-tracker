@@ -1,3 +1,7 @@
+### `Home Page`
+
+![team-tracker](https://user-images.githubusercontent.com/75581636/133970167-596b1f8c-4ebf-4f30-a6da-c8ed46273f55.png)
+
 ## Project Name: Team Tracker
 
 ## Used in this project
